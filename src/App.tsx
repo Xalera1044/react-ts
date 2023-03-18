@@ -1,4 +1,5 @@
 import "./App.css";
+import NewTodo from "./Components/NewTodo";
 import Todos from "./Components/Todos";
 import Todo from "./Models/todo";
 
@@ -7,6 +8,7 @@ function App() {
 
   return (
     <div>
+      <NewTodo />
       <Todos items={todos} />
     </div>
   );
